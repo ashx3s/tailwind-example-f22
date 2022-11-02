@@ -27,7 +27,7 @@
       <header
         class="flex gap-8 h-72 items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
       >
-        <div class="container px-6 lg:mx-auto">
+        <div class="container px-6 lg:px-0 lg:mx-auto">
           <h1 class="font-bold text-3xl xl:text-5xl mb-4">Tailwind CSS</h1>
           <p class="xl:text-lg xl:max-w-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
@@ -36,12 +36,12 @@
           </p>
         </div>
       </header>
-      <section>
-        <header>
-          <h2>Header 2</h2>
+      <section class="mx-auto pb-8">
+        <header class="py-4 container px-6 lg:px-0 mx-auto text-center">
+          <h2 class="text-2xl xl:text-4xl font-semibold">Header 2</h2>
         </header>
-        <div>
-          <p>
+        <div class="px-6 lg:px-0 mx-auto container">
+          <p class="max-w-prose mx-auto">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium vel odio inventore voluptatum est nemo quae iure
             perspiciatis, rem ratione id iusto similique non laboriosam sit!
@@ -51,21 +51,27 @@
           </p>
         </div>
       </section>
-      <section>
-        <header>
-          <h2></h2>
+      <section class="pb-8">
+        <header class="py-4 container px-6 lg:px-0 mx-auto text-center">
+          <h2 class="text-2xl xl:text-4xl font-semibold">Card Layout</h2>
         </header>
-        <div>
-          <article>
-            <h3>Thing 1</h3>
+        <div class="flex gap-4 flex-wrap justify-center">
+          <article
+            class="container w-48 py-4 px-2 bg-gradient-to-r from-blue-100 to-violet-200"
+          >
+            <h3 class="text-xl font-semibold mb-2">Thing 1</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </article>
-          <article>
-            <h3>Thing 2</h3>
+          <article
+            class="container w-48 py-4 px-2 bg-gradient-to-r from-red-100 to-violet-200"
+          >
+            <h3 class="text-xl font-semibold mb-2">Thing 2</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </article>
-          <article>
-            <h3>Thing 3</h3>
+          <article
+            class="container w-48 py-4 px-2 bg-gradient-to-r from-green-100 to-violet-200"
+          >
+            <h3 class="text-xl font-semibold mb-2">Thing 3</h3>
             <p>Lorem ipsum dolor sit amet.</p>
           </article>
         </div>
@@ -83,7 +89,7 @@
         </header>
       </section>
     </main>
-    <footer>
+    <footer class="bg-black py-8 text-center mx-auto text-white">
       <p>&copy; Ashlyn Knox</p>
     </footer>
   </body>
