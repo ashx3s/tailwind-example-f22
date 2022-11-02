@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
+    "./*.html", // look for all html files in the root directory of the repository
   ],
   presets: [],
   darkMode: 'media', // or 'class'
