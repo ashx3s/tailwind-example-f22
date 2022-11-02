@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-example",
+  "version": "1.0.0",
+  "description": "A simple practice space for using tailwindcss",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilyx13/tailwind-example-f22.git"
+  },
+  "keywords": [
+    "tailwind",
+    "html"
+  ],
+  "author": "Ashlyn Knox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilyx13/tailwind-example-f22/issues"
+  },
+  "homepage": "https://github.com/lilyx13/tailwind-example-f22#readme"
+}
